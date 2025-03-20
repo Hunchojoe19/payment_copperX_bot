@@ -1,1 +1,4 @@
 .qodo
+.env
+.gitignore
+node_modules
