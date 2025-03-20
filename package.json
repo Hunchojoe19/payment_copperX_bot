@@ -1,0 +1,38 @@
+{
+  "name": "payment_copperx_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hunchojoe19/payment_copperX_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hunchojoe19/payment_copperX_bot/issues"
+  },
+  "homepage": "https://github.com/Hunchojoe19/payment_copperX_bot#readme",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.13.10",
+    "axios": "^1.8.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "pusher-js": "^8.4.0",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/pusher-js": "^4.2.2"
+  }
+}
